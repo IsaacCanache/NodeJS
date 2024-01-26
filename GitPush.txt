@@ -1,0 +1,15 @@
+git config --global user.name "IsaacCanache"
+git config --global user.email "ciencelive3030@gmail.com"
+
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+
+
+git remote add origin https://github.com/IsaacCanache/Kubernetes.git
+git push -u origin main
+
+//forzar push
+git push -u origin main

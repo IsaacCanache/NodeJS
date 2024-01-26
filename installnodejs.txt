@@ -1,0 +1,6 @@
+instalar node js - redhat
+
+sudo dnf update -y
+sudo dnf install -y nodejs
+
+#para instalar una version especifica: sudo dnf module install nodejs:10

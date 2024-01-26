@@ -1,0 +1,27 @@
+1.- Ejecutar microservicio basico:
+
+cd ~
+mkdir microservice
+cd microservice
+npm init -y
+npm install express
+touch index.js
+
+#microservice
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/users', (req, res) => {
+    res.send('Hola usuarios');
+});
+
+app.listen(port, () => {
+    console.log(`Microservicio corriendo en http://localhost:${port}`);
+});
+
+#ejecute la aplicacion
+node index.js &
+curl http://localhost:3000/users
+
+

@@ -1,0 +1,7 @@
+Instalar Ngrok
+wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
+sudo tar -xvzf ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
+ngrok config add-authtoken 2bV5oGcv9QdzgGVEmohyO9MNa37_2ydkdpAznKvBiUVp1NdG4
+
+//publicar puerto
+ngrok http http://localhost:3000

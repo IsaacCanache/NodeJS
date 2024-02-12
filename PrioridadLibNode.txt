@@ -1,0 +1,25 @@
+Librerias de nodejs
+-------------------------------
+
+-------------------------------
+1.- express
+2.- mongoose
+3.- body-parser	
+4.- socket.io-client
+5.- socket.io
+6.- sequelize
+7.- mysql
+8.- morgan
+9.- passport
+10.- passport-local
+11.- bcryptjs
+12.- jsonwebtoken
+13.- crypto
+14.- passport-auth0
+15.- axios
+16.- ajv
+
+
+-------------------------------
+
+-------------------------------
